@@ -1,0 +1,16 @@
+.title {
+
+}
+
+.wafuu {
+  background-color: brown;
+  color: white;
+  padding: auto;
+  text-align: center;
+  font-size: 80px;
+}
+
+.mainimg {
+  background-image: url("images/kimono.jpg");
+  height: 500px;
+}
