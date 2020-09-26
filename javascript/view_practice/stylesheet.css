@@ -10,10 +10,12 @@
 
 main {
   background-image: url("images/red-maple-5385956_1280.jpg");
+  background-size: cover;
   height: 500px;
   width: auto;
-  background-color: chartreuse;
   text-align: center;
+  color: white;
+  font-size: 50px;
 }
 .mainimg {
   
