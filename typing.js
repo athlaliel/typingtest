@@ -23,16 +23,16 @@ $(function() {
   
   // 問題
   const MONDAI_LIST = [
-    {yomi:'ごはん', text:'gohan'},
-    {yomi:'おすし', text:'osushi'},
-    {yomi:'サイフ', text:'saifu'},
-    {yomi:'バナナ', text:'banana'},
-    {yomi:'くつした', text:'kutsushita'},
-    {yomi:'なべ', text:'nabe'},
-    {yomi:'あし', text:'ashi'},
-    {yomi:'パソコン', text:'pasokon'},
-    {yomi:'けいたい', text:'keitai'},
-    {yomi:'ふとん', text:'futon'},
+    {yomi:'エンジニア', text:'enjinia'},
+    {yomi:'プログラマー', text:'programa-'},
+    {yomi:'サーバーサイド', text:'sa-va-said'},
+    {yomi:'フロントエンド', text:'furontoend'},
+    {yomi:'インデント', text:'indent'},
+    {yomi:'エラー', text:'error'},
+    {yomi:'デプロイ', text:'deploy'},
+    {yomi:'Java', text:'java'},
+    {yomi:'スマホ', text:'sumaho'},
+    {yomi:'プロジェクトマネージャー', text:'projectmana-ja-'},
   ];
   
   $yomi.hide();
