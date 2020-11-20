@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <form style="
+    width: 360px;
+    background: #eeeeee;
+    padding: 10px;
+    text-align: center;
+  ">
+  <p>
+  勝数：<input type="text" id="win-count" style="
+    width: 70px;
+    text-align: right;
+  ">
+  </p>
+  <span id="msg1" style="color: #ff0000;"></span>
+  <p>
+  敗数：<input type="text" id="lose-count" style="
+    width: 70px;
+    text-align: right;
+  ">
+  </p>
+  <span id="msg2" style="color: #ff0000;"></span>
+  <p>
+  <input type="button" value="計算" onclick="bmi_cal();" style="
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+  ">
+  </p>
+  <span id="msg3"></span>
+  <noscript>
+  このブラウザはスクリプトが実行しないように制限されています。
+  </noscript>
+  </form>
+
+  <script type="text/javascript">
+    function bmi_cal() {
+      var ht = document.getElementById("win-count").value;
+      var bw = document.getElementById("lose-count").value;
+      var caliculate = Math.round(bw / Math.pow(ht / 100, 2) * 100) / 100
+      if (Number.isFinite(1 / ht)) {
+        document.getElementById("msg1").innerHTML = ''; 
+      } else {
+        document.getElementById("msg1").innerHTML = '勝った数が入力されていません';
+      }
+      if (Number.isFinite(1 / bw)){
+        document.getElementById("msg2").innerHTML = ''; 
+      } else {
+        document.getElementById("msg2").innerHTML = '負けた数が入力されていません';
+      }
+      if (ht * bw > 0){
+        document.getElementById("msg3").innerHTML = '勝率は = ' + caliculate + "%です"; 
+      } else {
+        document.getElementById("msg3").innerHTML = '';
+      }
+    }
+    </script>
+</body>
+</html>
