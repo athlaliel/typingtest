@@ -8,4 +8,4 @@ techpitの教材で作成したモノ。
 単純にindex.htmlにjQueryを記述してないだけの話だった。
 これをやった経験を元に別なクイズアプリを作成したいと思っているが、現状は知識不足すぎて作り方を模索中。
 
-![typing](https://user-images.githubusercontent.com/66309248/92626172-8715e800-f304-11ea-8101-f536647a11db.gif)
+![typinggame](https://user-images.githubusercontent.com/66309248/98658581-91954200-2386-11eb-956d-23cf430d153d.gif)
